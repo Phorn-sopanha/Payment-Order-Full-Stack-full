@@ -1,4 +1,4 @@
-const backendDomain = "http://localhost:2020"
+const backendDomain = process.env.RECAT_APP_BACKEND_URL //"http://localhost:2020"
 
 const SummaryApi = {
         signUp : {
