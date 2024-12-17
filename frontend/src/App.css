@@ -1,0 +1,43 @@
+.customShadow{
+    box-shadow: 0px 0px 10px rgb(0,0,0,0.1);
+}
+/* /user table */
+.userTable{
+    @apply bg-white 
+}
+.userTable th{
+    @apply border text-base font-medium
+}
+.userTable td{
+    @apply border text-base text-center
+}
+
+.disPlayPro{
+    align-content : flex-start;
+}
+
+/* Scrollbar modification */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: rgba(92, 92, 92, 0.8);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(29,17,138,0.6);
+}
+
+/* scrollbar hidden */
+.scrollbar-none::-webkit-scrollbar{
+    display: none;
+}
